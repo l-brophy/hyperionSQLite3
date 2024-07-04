@@ -1,0 +1,19 @@
+3001__A Tale of Two Cities__Charles Dickens__30
+3002__Harry Potter and the Philosopher's Stone__J.K. Rowling__40
+3003__The Lion, the Witch and the Wardrobe__C. S. Lewis__25
+3004__The Lord of the Rings__J.R.R Tolkien__37
+3005__Alice in Wonderland__Lewis Carroll__12
+3006__Soul Music__Terry Pratchett__15
+3007__The State and Revolution__Vladimir Lenin__15
+3008__Why Zebras Don't Get Ulcers__Robert Sapolsky__18
+3009__Wretched of the Earth__Frantz Fanon__20
+3010__Entangled Life__Merlin Sheldrake__12
+3011__Mort__Terry Pratchett__18
+3012__Why Be Happy When You Could Be Normal?__Jeanette Winterson__20
+3013__Gut Symmetry__Jeanette Winterson__18
+3014__Wizard of Earthsea__Ursula K. Le Guin__30
+3015__Reform or Revolution__Rosa Luxembourg__69
+3016__Black Shirts and Reds__Michael Parenti__22
+3017__Catch-22__Joseph Keller__12
+3018__Annihilation__Jeff Vandermeer__32
+3019__Perdido Street Station__China Mieville__30
