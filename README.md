@@ -10,7 +10,9 @@ The program makes use of standard CRUD operations to automate interactions with 
 
 ## installation
 
-To make use of this program, you must have Python 3 installed on your system, and the [tabulate module](https://pypi.org/project/tabulate/) in your Python install. If you wish to start the database with only your own books, do not download the `.txt` file in the repository. Otherwise, please ensure that you have downloaded both files in the same directory, or the program will not be able to read the file, and you'll have to start from scratch! 
+To make use of this program, you must have Python 3 installed on your system, and the [tabulate module](https://pypi.org/project/tabulate/) in your Python install. 
+
+If you wish to start the database with only your own books, do not download the `.txt` file in the repository. Otherwise, please ensure that you have downloaded both files in the same directory, or the program will not be able to read the file, and you'll have to start from scratch! 
 
 Once you are ready to run the program, type the following code into your terminal according to your OS:
 
