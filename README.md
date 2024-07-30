@@ -20,4 +20,7 @@ UNIX users: `$ python3 e_bookstore.py`
 
 Windows users: `$ python e_bookstore.py`
 
-... and you're good to go! Enjoy!
+If a prompt like this pops up, you're good to go! Enjoy!
+
+<img width="703" alt="in_terminal" src="https://github.com/user-attachments/assets/c2504131-6b94-4f70-9056-fba8493a3029">
+
