@@ -320,6 +320,21 @@ if __name__ == "__main__":
     if os.path.isfile("./onset_book_log.txt") is True:
         call_database()
     
+    print('''Hello, and welcome to e-Bookstore HQ! 
+        
+    This menu down here is the brain of the operation. Through a series of \
+    menus, your terminal will guide you through various functions by prompting \
+    you to type a key - and only ever a single key - to get to where you need \
+    to go. 
+    
+    Being a rather simplistic system, this manager is not nearly as smart as \
+    you are, so please make sure that you know exactly what it is you'd like \
+    to do before you go through with it, and make sure that your instructions \
+    are within bounds! 
+    
+    Without further ado:
+    ''')
+    
     main()
     
     db.close()
