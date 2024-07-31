@@ -20,8 +20,6 @@ def call_database():
                         VALUES(?, ?, ?, ?)''', (int(book[0]), book[1],
                                                 book[2], int(book[3])))
             db.commit()
-    
-    os.remove("./onset_book_log.txt")
 
 
 def print_table(table):
@@ -153,8 +151,9 @@ def validate_type(field):
 def main_menu():
     """the landing page we always turn back to
     """    
-    leave_menu = input("""\nTo interact with the database, type the letter that \
-corresponds to what you would like to do and hit enter.
+    leave_menu = input("""
+To interact with the database, type the letter that corresponds to what you 
+would like to do and hit enter.
 
     a - add a new record
     s - search for a record
@@ -318,18 +317,34 @@ if __name__ == "__main__":
     SQL = db.cursor()
     
     if os.path.isfile("./onset_book_log.txt") is True:
-        call_database()
+        database_initialised = False
+        while database_initialised is False:
+            preload_database = input('''\nFile with book data located. Would \
+you like to make use of this file (y/N?)\n\t: ''').strip()
+            match preload_database:
+                case "y":
+                    call_database()
+                    print("\nPresets added successfully!")
+                    database_initialised = True
+                case "N":
+                    confirmation = input('''\nPresets will be deleted. This is \
+an irreversible action. Are you sure (y/N)? ''')
+                    match confirmation:
+                        case "y":
+                            database_initialised = True
+                            print("\nStarting fresh!")
+        os.remove("./onset_book_log.txt")
     
     print('''Hello, and welcome to e-Bookstore HQ! 
         
-    This menu down here is the brain of the operation. Through a series of \
-    menus, your terminal will guide you through various functions by prompting \
-    you to type a key - and only ever a single key - to get to where you need \
+    This menu down here is the brain of the operation. Through a series of 
+    menus, your terminal will guide you through various functions by prompting 
+    you to type a key - and only ever a single key - to get to where you need 
     to go. 
     
-    Being a rather simplistic system, this manager is not nearly as smart as \
-    you are, so please make sure that you know exactly what it is you'd like \
-    to do before you go through with it, and make sure that your instructions \
+    Being a rather simplistic system, this manager is not nearly as smart as 
+    you are, so please make sure that you know exactly what it is you'd like 
+    to do before you go through with it, and make sure that your instructions 
     are within bounds! 
     
     Without further ado:
